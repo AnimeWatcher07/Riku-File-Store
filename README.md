@@ -8,7 +8,7 @@
 **Your Ultimate Telegram Channel Link Management Bot**
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)](https://python.org)
-[![Telegram](https://img.shields.io/badge/Telegram-Bot-blue?style=for-the-badge&logo=telegram)](https://telegram.org)
+[![Telegram](https://t.me/Riku_Chan_Support)](http://t.me/Riku_LinkChanger_Robot)
 [![Database](https://img.shields.io/badge/Database-SQLite-green?style=for-the-badge)](https://sqlite.org)
 [![MongoDB](https://img.shields.io/badge/MongoDB-Supported-green?style=for-the-badge&logo=mongodb)](https://mongodb.com)
 
