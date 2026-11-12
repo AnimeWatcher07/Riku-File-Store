@@ -3,28 +3,30 @@
 
 # 🔗 RIKU LINK CHANGER
 
-### ✨ Smart • Secure • Powerful ✨
+### ✨ SMART • SECURE • POWERFUL ✨
 
 **Your Ultimate Telegram Channel Link Management Bot**
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)](https://python.org)
-[![Telegram](1https://img.shields.io/badge/Telegram-Bot-blue?style=for-the-badge&logo=telegram)](https://t.me/Riku_Chan_Support)
-[![Database](https://img.shields.io/badge/Database-SQLite-green?style=for-the-badge)](https://sqlite.org)
+[![Telegram](https://img.shields.io/badge/Telegram-Bot-blue?style=for-the-badge&logo=telegram)](https://telegram.org)
+[![SQLite](https://img.shields.io/badge/Database-SQLite-green?style=for-the-badge)](https://sqlite.org)
 [![MongoDB](https://img.shields.io/badge/MongoDB-Supported-green?style=for-the-badge&logo=mongodb)](https://mongodb.com)
+
+[![Telegram Support](https://img.shields.io/badge/Telegram-Join%20Support%20Channel-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Riku_Chan_Support)
 
 ---
 
-### 🚀 ABOUT THE PROJECT
+**Advanced • Fast • Reliable**
+
+</div>
+
+## 💎 ABOUT THE PROJECT
 
 **Riku Link Changer** is an advanced Telegram automation bot designed to make channel link management simple, efficient and reliable.
 
 Manage channels, generate protected invite links, automate join requests and control everything through a beautiful button-based admin panel.
 
-</div>
-
----
-
-## 💎 FEATURES
+## 🚀 FEATURES
 
 | Feature | Description |
 |:---|:---|
@@ -71,7 +73,7 @@ pip install -r requirements.txt
 
 ### 4. Configure Environment Variables
 
-Set your required bot credentials and configuration in the hosting environment.
+Set your required bot credentials and configuration in your hosting environment.
 
 ### 5. Start Bot
 
@@ -116,18 +118,30 @@ Riku-Link-Changer/
 └── README.md
 ```
 
-## ❤️ SUPPORT & CREDITS
+---
+
+## ❤️ SUPPORT & COMMUNITY
 
 <div align="center">
 
+### 💬 JOIN OUR TELEGRAM COMMUNITY
+
+Get updates, support and announcements.
+
+<a href="https://t.me/Riku_Chan_Support">
+<img src="https://img.shields.io/badge/TELEGRAM-JOIN%20OUR%20CHANNEL-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Join Telegram Support">
+</a>
+
+<br><br>
+
 ### 🔗 RIKU LINK CHANGER
 
-**MADE FOR TELEGRAM COMMUNITY MANAGEMENT**
+**SMART • SECURE • POWERFUL**
 
 ✨ Simple. Smart. Reliable. ✨
 
 ---
 
-© Riku Link Changer. All Rights Reserved.
+**© Riku Link Changer | All Rights Reserved**
 
 </div>
