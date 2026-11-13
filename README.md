@@ -1,151 +1,92 @@
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:09090F,50:312E81,100:7C3AED&height=220&section=header&text=RIKU%20LINK%20CHANGER&fontSize=38&fontColor=FFFFFF&fontAlignY=38&desc=SMART%20%E2%80%A2%20SECURE%20%E2%80%A2%20POWERFUL&descSize=15&descAlignY=60&animation=fadeIn" width="100%" />ᴛʜᴇ ᴘᴏᴡᴇʀ ᴏꜰ sᴍᴀʀᴛ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=220&color=0:050505,50:17112E,100:5425A8&text=RIKU%20LINK%20CHANGER&fontSize=38&fontColor=FFFFFF&fontAlignY=42&desc=THE%20NEXT%20LEVEL%20OF%20TELEGRAM%20LINK%20MANAGEMENT&descAlignY=65&descSize=12&animation=fadeIn" width="100%" /><br/>RIKU LINK CHANGER
+
+A smarter way to manage Telegram invite links.
 
 <br/><a href="https://github.com/AnimeWatcher07/Riku-File-Store">
-<img src="https://img.shields.io/badge/GITHUB-SOURCE%20CODE-181717?style=for-the-badge&logo=github" />
+<img src="https://img.shields.io/badge/EXPLORE%20PROJECT-8B5CF6?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 <a href="https://t.me/Riku_Chan_Support">
-<img src="https://img.shields.io/badge/TELEGRAM-SUPPORT-229ED9?style=for-the-badge&logo=telegram&logoColor=white" />
+<img src="https://img.shields.io/badge/GET%20SUPPORT-229ED9?style=for-the-badge&logo=telegram&logoColor=white"/>
 </a><br/><br/>
 
-<img src="https://img.shields.io/badge/PYTHON-3.11-3776AB?style=flat-square&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/ASYNC-POWERED-7C3AED?style=flat-square" />
-<img src="https://img.shields.io/badge/MONGODB-SUPPORTED-47A248?style=flat-square&logo=mongodb&logoColor=white" /><br/>━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+"PYTHON"　 "TELEGRAM BOT"　 "MONGODB"
 
-One bot. Complete channel link management.
+<br/></div>---
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+<div align="center">✦ NAVIGATION
 
-</div><br/>◈ 01 — INTRODUCTION
+"Features" (#-features)　•　"Installation" (#-installation)　•　"Configuration" (#-configuration)　•　"Deployment" (#-deployment)　•　"Support" (#-support)
 
-Riku Link Changer is an advanced Telegram bot built to simplify channel invite-link management.
+</div>---
 
-Designed with an easy-to-use button interface, it helps administrators manage channels, generate invite links, control join requests and monitor bot activity.
+✦ ABOUT THE PROJECT
 
-Built for speed. Designed for simplicity.
+Riku Link Changer is a Telegram bot project designed to make invite-link delivery and channel access management easier.
 
----
+With a simple interface and configurable settings, users can access link-generation options while administrators manage the bot's channel requirements and settings.
 
-◈ 02 — POWERFUL FEATURES
+<details>
+<summary><b>What makes Riku different?</b></summary>- Simple Telegram interface
+- Multiple link-delivery modes
+- Force-subscription verification
+- Configurable channel settings
+- Optional MongoDB storage
+- Backup-channel configuration
+
+</details>---
+
+✦ FEATURES
 
 <table>
 <tr>
-<td width="50%" valign="top">🔗 LINK MANAGEMENT
+<td width="50%" valign="top">🔗 LINK SYSTEM
 
-- Normal invite links
-- Request-based links
-- Bulk link generation
-- GenLink support
-- Automatic link expiry
-- Protected link delivery
+- Normal link delivery
+- Request-based link delivery
+- GenLink option
+- Link delivery interface
 
 </td>
-<td width="50%" valign="top">🛡️ CHANNEL CONTROL
+<td width="50%" valign="top">🛡️ ACCESS CONTROL
 
-- Force subscription
-- Multiple channel support
-- Join request handling
-- Automatic approval
-- Channel management
-- Subscription verification
+- Force-subscription check
+- Required channel verification
+- Join-channel interface
+- Subscription rechecking
 
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">👑 ADMINISTRATION
+<td width="50%" valign="top">⚙️ BOT INTERFACE
 
-- Interactive admin panel
-- User management
-- Ban management
-- Broadcast messages
-- User statistics
-- Click tracking
+- Interactive buttons
+- Start menu
+- About section
+- Channel section
 
 </td>
-<td width="50%" valign="top">💾 DATA & PERFORMANCE
+<td width="50%" valign="top">💾 STORAGE
 
-- Telegram channel backups
-- Optional MongoDB storage
-- Multiple backup channels
-- Async processing
-- Invite-link caching
-- Configurable limits
+- Local database support
+- Optional MongoDB
+- Backup-channel settings
+- Configurable environment
 
 </td>
 </tr>
 </table>---
 
-◈ 03 — TECHNOLOGY STACK
-
-<div align="center">TECHNOLOGY| PURPOSE
-🐍 Python 3.11| Core language
-🤖 Telegram Bot API| Telegram integration
-⚡ aiohttp| Async HTTP requests
-💾 Local Database| Temporary local storage
-🍃 MongoDB| Optional cloud storage
-
-</div>---
-
-◈ 04 — INSTALLATION GUIDE
-
-STEP 01 · Clone Repository
-
-git clone https://github.com/AnimeWatcher07/Riku-File-Store.git
-
-STEP 02 · Open Project
-
-cd Riku-File-Store
-
-STEP 03 · Install Dependencies
-
-pip install -r requirements.txt
-
-STEP 04 · Configure Environment
-
-Set the following variables in your hosting dashboard:
-
-VARIABLE| DESCRIPTION
-"TG_BOT_TOKEN"| Telegram bot token
-"OWNER_ID"| Bot owner's Telegram ID
-"BACKUP_CHANNEL"| Private backup channel ID
-"DB_URI"| Optional MongoDB URI
-"LINK_SALT"| Optional link security secret
-"BOT_NAME"| Custom bot name
-
-Optional configuration: "BACKUP_CHANNEL_2" to "BACKUP_CHANNEL_5", "ADMINS", "MONGO_STORE", "MONGO_LIMIT_MB", "START_MESSAGE", "START_PIC", "FORCE_PIC" and other settings are supported by the configuration.
-
-«Keep your bot token and database credentials private. Add your bot as an administrator in the backup channel with the required permissions.»
-
-STEP 05 · Launch Bot
-
-python main.py
-
----
-
-◈ 05 — DEPLOYMENT
-
-Recommended configuration for compatible Python hosting platforms:
-
-SETTING| VALUE
-Runtime| Python 3.11
-Build Command| "pip install -r requirements.txt"
-Start Command| "python main.py"
-
-Important data note: The local database is stored in a temporary directory by default. Temporary storage can be erased after a restart or redeployment. Configure MongoDB storage or Telegram backup channels to protect your data.
-
----
-
-◈ 06 — PROJECT STRUCTURE
+✦ PROJECT STRUCTURE
 
 Riku-File-Store/
 │
 ├── database/
-│
 ├── plugins/
 │
-├── config.py
 ├── bot.py
-├── helper_func.py
 ├── main.py
+├── config.py
+├── helper_func.py
 ├── ui.py
 │
 ├── requirements.txt
@@ -155,35 +96,75 @@ Riku-File-Store/
 
 ---
 
-◈ 07 — SECURITY
+✦ INSTALLATION
 
-- Never publish your Telegram bot token.
-- Keep database credentials confidential.
-- Store sensitive values in environment variables.
-- Give admin permissions only to trusted users.
-- Use private backup channels.
-- Maintain regular backups.
+01 — Clone the repository
+
+git clone https://github.com/AnimeWatcher07/Riku-File-Store.git
+
+02 — Enter the project folder
+
+cd Riku-File-Store
+
+03 — Install dependencies
+
+pip install -r requirements.txt
+
+04 — Configure environment variables
+
+Add the required settings to your hosting platform.
 
 ---
 
-◈ 08 — OFFICIAL SUPPORT
+✦ CONFIGURATION
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&color=0:111827,100:312E81&height=120&section=header&text=NEED%20HELP%3F&fontSize=30&fontColor=FFFFFF&desc=WE%20ARE%20HERE%20TO%20HELP&descSize=13&descColor=C4B5FD" width="100%" />💜 RIKU SUPPORT COMMUNITY
+Environment Variable| Description
+"TG_BOT_TOKEN"| Telegram bot token
+"OWNER_ID"| Owner's Telegram ID
+"BACKUP_CHANNEL"| Backup channel ID
+"DB_URI"| MongoDB connection URI
+"LINK_SALT"| Link security secret
+"BOT_NAME"| Custom bot name
 
-Get assistance, updates and announcements through our Telegram channel.
+Additional optional settings are available in "config.py".
+
+Keep your bot token and database credentials private.
+
+---
+
+✦ DEPLOYMENT
+
+Recommended runtime configuration:
+
+Setting| Value
+Python| 3.11
+Build command| "pip install -r requirements.txt"
+Start command| "python main.py"
+
+After adding the required environment variables, deploy the project on a compatible Python hosting platform.
+
+---
+
+✦ SUPPORT
+
+<div align="center"><img src="https://capsule-render.vercel.app/api?type=rect&height=150&color=0:17112E,100:5425A8&text=NEED%20HELP%3F&fontSize=32&fontColor=FFFFFF&desc=CONNECT%20WITH%20RIKU%20SUPPORT&descSize=13&descColor=D8B4FE&descAlignY=70" width="100%" />💜 RIKU SUPPORT CHANNEL
+
+Questions, assistance and project updates.
 
 <br/><a href="https://t.me/Riku_Chan_Support">
-<img src="https://img.shields.io/badge/✦_JOIN_RIKU_SUPPORT-229ED9?style=for-the-badge&logo=telegram&logoColor=white" />
+<img src="https://img.shields.io/badge/JOIN%20TELEGRAM%20SUPPORT-229ED9?style=for-the-badge&logo=telegram&logoColor=white"/>
 </a><br/><br/>
-
-SUPPORT • UPDATES • COMMUNITY
 
 </div>---
 
-<div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:312E81,100:09090F&height=130&section=footer" width="100%" />RIKU LINK CHANGER
+<div align="center">RIKU LINK CHANGER
 
-S M A R T　•　S E C U R E　•　P O W E R F U L
+BUILT FOR SIMPLICITY. DESIGNED FOR PERFORMANCE.
 
-<sub>© Riku Link Changer. All rights reserved.</sub>
+<sub>© Riku Link Changer</sub>
+
+<br/><a href="https://github.com/AnimeWatcher07/Riku-File-Store">GitHub Repository</a>
+  •  
+<a href="https://t.me/Riku_Chan_Support">Telegram Support</a>
 
 </div>
