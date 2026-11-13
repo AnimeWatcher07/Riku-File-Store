@@ -145,7 +145,7 @@ ABOUT_TXT = ABOUT
 
 CHANNELS_TXT = os.environ.get(
     "CHANNELS_TXT",
-    "<b>›› ɴᴇᴛᴡᴏʀᴋ ᴄʜᴀɴɴᴇʟs</b> https://t.me/Riku_Chan_Channel\n"
+    "<b>›› ɴᴇᴛᴡᴏʀᴋ ᴄʜᴀɴɴᴇʟs</b>\n\n"
 )
 
 BOT_STATS_TEXT = "<b>⚡ ʙᴏᴛ ᴜᴘᴛɪᴍᴇ :</b> <code>{uptime}</code>"
