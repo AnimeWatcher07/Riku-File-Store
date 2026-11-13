@@ -91,7 +91,7 @@ INVITE_LINK_EXPIRY = int(os.environ.get("INVITE_LINK_EXPIRY", "300"))
 
 START_PIC = os.environ.get(
     "START_PIC",
-    "https://graph.org/file/aec68a48c5df344b6519f-ebfa5e524a7a87ac95.jpg"
+    "https://graph.org/file/4f0a339dcc68d348e7625-8176bf4db1492f6bd5.jpg"
 )
 START_IMG = os.environ.get("START_IMG", START_PIC)
 FORCE_PIC = os.environ.get("FORCE_PIC", START_PIC)
